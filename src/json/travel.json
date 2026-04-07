@@ -1,56 +1,113 @@
 [
   {
     "id": 1,
+    "slug": "cebu-island-of-wonders",
     "category": "Beach",
     "title": "Cebu: Island of Wonders",
     "excerpt": "From the stunning shores of Mactan to the sardine run of Moalboal, Cebu never runs out of surprises for us.",
+    "content": "Cebu was one of those destinations that exceeded every expectation. We arrived not knowing what to expect, and left with hearts so full we could barely speak on the flight home. The beaches were unreal — crystal clear water, white sand, and the kind of warmth that seeps into your bones. We snorkeled with whale sharks in Oslob, watched the sunrise from the top of Osmena Peak, and ate the best lechon of our lives on a street corner in the city. Every corner of this island told a story, and we were lucky enough to be part of it.",
     "date": "March 12, 2025",
     "author": "Ana & Husband",
-    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?w=600"
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?w=600",
+    "gallery": [
+      "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?w=800",
+      "https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?w=800",
+      "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?w=800",
+      "https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?w=800",
+      "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?w=800",
+       "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?w=800",
+        "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?w=800"
+    ]
   },
   {
     "id": 2,
+    "slug": "baguio-our-cool-escape",
     "category": "Highlands",
     "title": "Baguio: Our Cool Escape",
     "excerpt": "Pine trees, strawberry fields, and that crisp mountain air. Baguio is where we slow down and breathe.",
+    "content": "There's something about Baguio that slows everything down in the best way. The moment the cool air hits you as you ascend, you feel your shoulders drop and your breath deepen. We wandered through the Burnham Park hand in hand, picked strawberries in La Trinidad, and warmed ourselves with cups of taho from a vendor outside our hotel. Baguio isn't just a place — it's a feeling. It's where we learned to be still together.",
     "date": "February 3, 2025",
     "author": "Ana & Husband",
-    "image": "https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?w=600"
+    "image": "https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?w=600",
+    "gallery": [
+      "https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?w=800",
+      "https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?w=800",
+      "https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?w=800",
+      "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?w=800",
+      "https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg?w=800"
+    ]
   },
   {
     "id": 3,
+    "slug": "patar-beach-pangasinan",
     "category": "Beach",
     "title": "Patar Beach, Pangasinan",
     "excerpt": "White sand that stretches for miles and turquoise water so clear you can see the bottom. Pure paradise.",
+    "content": "We almost didn't go. The drive was long, the road was rough, and we questioned ourselves more than once. But the moment we stepped onto Patar Beach, every doubt disappeared. The sand was powdery white, the water was impossibly clear, and there was almost nobody else around. We sat there for hours, just the two of us and the sound of the waves. Some places make you feel like the world was made just for you — Patar is one of them.",
     "date": "January 18, 2025",
     "author": "Ana & Husband",
-    "image": "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?w=600"
+    "image": "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?w=600",
+    "gallery": [
+      "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?w=800",
+      "https://images.pexels.com/photos/1507525/pexels-photo-1507525.jpeg?w=800",
+      "https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?w=800",
+      "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?w=800",
+      "https://images.pexels.com/photos/1559699/pexels-photo-1559699.jpeg?w=800"
+    ]
   },
   {
     "id": 4,
+    "slug": "benguet-above-the-clouds",
     "category": "Mountain",
     "title": "Benguet: Above the Clouds",
     "excerpt": "Rolling hills, misty mornings, and sunsets that paint the sky in gold. Benguet stole a piece of our hearts.",
+    "content": "Benguet greeted us with fog so thick we could barely see ten feet ahead. But as the morning burned off the mist, what was revealed took our breath away — rolling green highlands, terraced fields carved into the mountainside, and a sky so blue it looked painted. We hiked through vegetable farms, talked to local farmers, and watched the sun dip below the mountains in a blaze of orange and pink. Benguet reminds you that the most beautiful things often require a little patience.",
     "date": "December 5, 2024",
     "author": "Ana & Husband",
-    "image": "https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg?w=600"
+    "image": "https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?w=600",
+    "gallery": [
+      "https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?w=800",
+      "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?w=800",
+      "https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg?w=800",
+      "https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?w=800",
+      "https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg?w=800"
+    ]
   },
   {
     "id": 5,
+    "slug": "masasa-beach-hidden-gem",
     "category": "Beach",
     "title": "Masasa Beach: Hidden Gem",
     "excerpt": "A boat ride, a short hike, and then — pure magic. Masasa is the kind of place you want to keep secret.",
+    "content": "Getting to Masasa is half the adventure. A tricycle, a boat, and a short trail through the trees — and suddenly you're standing in front of one of the most beautiful beaches in the Philippines. The water is a deep, rich turquoise, the rocks frame the shore perfectly, and the whole place feels untouched. We stayed until the last boat, not wanting to leave. Masasa is proof that the best things in life are worth the extra effort to reach.",
     "date": "November 20, 2024",
     "author": "Ana & Husband",
-    "image": "https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?w=600"
+    "image": "https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?w=600",
+    "gallery": [
+      "https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?w=800",
+      "https://images.pexels.com/photos/1319515/pexels-photo-1319515.jpeg?w=800",
+      "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?w=800",
+      "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?w=800",
+      "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?w=800"
+      
+    ]
   },
   {
     "id": 6,
+    "slug": "chasing-waterfalls-together",
     "category": "Nature",
     "title": "Chasing Waterfalls Together",
     "excerpt": "Nothing beats the sound of rushing water after a long trek. Every waterfall we've found has been worth it.",
+    "content": "We've made it a tradition — whenever we travel somewhere with a waterfall, we find it. No matter how long the hike, no matter how muddy the trail. There's something deeply peaceful about standing next to falling water. The sound drowns out everything else. On our last waterfall trip, we stood under the mist, soaked and laughing, and agreed it was one of the best moments of our lives. That's the thing about chasing waterfalls — you always find more than just water.",
     "date": "October 8, 2024",
     "author": "Ana & Husband",
-    "image": "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?w=600"
+    "image": "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?w=600",
+    "gallery": [
+      "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?w=800",
+      "https://images.pexels.com/photos/432405/pexels-photo-432405.jpeg?w=800",
+      "https://images.pexels.com/photos/975771/pexels-photo-975771.jpeg?w=800",
+      "https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?w=800",
+      "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?w=800"
+    ]
   }
 ]

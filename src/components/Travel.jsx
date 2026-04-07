@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Search, X, MapPin, Calendar, User, ChevronRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import places from "../json/travel.json";
 
 const Travel = () => {
   const [search, setSearch] = useState("");
+  const navigate = useNavigate();
 
   const filtered = places.filter((p) => {
     const query = search.toLowerCase();
@@ -16,6 +18,7 @@ const Travel = () => {
   return (
     <section id="Travel" className="py-16 bg-white">
       <div className="container">
+
         {/* Header Row */}
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-10">
           <div>
@@ -76,30 +79,25 @@ const Travel = () => {
             </button>
           </div>
         ) : (
-          /* Cards Grid */
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filtered.map((place) => (
               <article
                 key={place.id}
                 className="bg-white group cursor-pointer overflow-hidden"
                 style={{ isolation: "isolate" }}
+                onClick={() => navigate(`/travel/${place.slug}`)}
               >
-                {/* Image */}
                 <div className="relative h-80 overflow-hidden rounded-3xl">
                   <img
                     src={place.image}
                     alt={place.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  {/* Category Badge */}
                   <span className="absolute top-3 left-3 bg-white/80 backdrop-blur-sm text-primary text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">
                     {place.category}
                   </span>
                 </div>
-
-                {/* Content */}
                 <div className="p-5">
-                  {/* Meta */}
                   <div className="flex items-center gap-4 text-xs text-text-muted mb-3">
                     <span className="flex items-center gap-1">
                       <Calendar className="w-3 h-3" /> {place.date}
@@ -108,21 +106,15 @@ const Travel = () => {
                       <User className="w-3 h-3" /> {place.author}
                     </span>
                   </div>
-
-                  {/* Title */}
                   <h3 className="text-text-primary group-hover:text-primary transition-colors duration-200 mb-2">
                     {place.title}
                   </h3>
-
-                  {/* Excerpt */}
                   <p className="text-text-muted text-sm leading-relaxed mb-4">
                     {place.excerpt}
                   </p>
-
-                  {/* Read More */}
-                  <a className="text-primary text-sm font-medium flex items-center gap-1 hover:text-primary-dark transition-colors">
+                  <span className="text-primary text-sm font-medium flex items-center gap-1 hover:text-primary-dark transition-colors">
                     Read Story <ChevronRight className="w-4 h-4" />
-                  </a>
+                  </span>
                 </div>
               </article>
             ))}

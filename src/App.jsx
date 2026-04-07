@@ -1,22 +1,36 @@
-import Blog from "./components/Blog";
-import Hero from "./components/Hero";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Gallery from "./components/Gallery";
-import Travel from "./components/Travel";
-import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 import About from "./components/About";
+import Travel from "./components/Travel";
+import Blog from "./components/Blog";
+import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
+import TravelDetail from "./pages/TravelDetail";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <Hero />
-      <About />
-      <Blog />
-      <Gallery />
-      <Travel />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        {/* Main Page */}
+        <Route
+          path="/"
+          element={
+            <>
+              <NavBar />
+              <Hero />
+              <About />
+              <Blog />
+              <Gallery />
+              <Travel />
+              <Footer />
+            </>
+          }
+        />
+        {/* Travel Detail Page */}
+        <Route path="/travel/:slug" element={<TravelDetail />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
