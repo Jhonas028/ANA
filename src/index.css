@@ -1,0 +1,128 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap");
+
+@theme {
+  --color-primary: #e11d48;
+  --color-primary-dark: #be123c;
+  --color-primary-light: #fda4af;
+  --color-dark-section: #1c1917;
+  --color-light-section: #fff1f2;
+  --color-text-primary: #1c1917;
+  --color-text-secondary: #57534e;
+  --color-text-muted: #a8a29e;
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth scroll-p-16;
+  }
+
+  body {
+    @apply overflow-x-hidden font-sans text-text-secondary text-base bg-white;
+  }
+
+  .container {
+    @apply max-w-6xl w-full mx-auto px-4;
+  }
+
+  h1 {
+    @apply text-[clamp(2rem,9vw,4.5rem)] font-bold leading-tight font-serif;
+  }
+  h2 {
+    @apply text-[clamp(1.5rem,5vw,2.5rem)] font-bold leading-snug font-serif;
+  }
+  h3 {
+    @apply text-[clamp(1.25rem,4vw,1.25rem)] font-semibold;
+  }
+  h4 {
+    @apply text-[clamp(0.875rem,3.5vw,1.25rem)] font-semibold;
+  }
+  h5 {
+    @apply text-lg font-semibold;
+  }
+  h6 {
+    @apply text-base font-medium;
+  }
+
+  p {
+    @apply text-sm leading-relaxed text-text-secondary;
+  }
+  a {
+    @apply text-sm;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block px-6 py-3 rounded-lg font-medium
+    w-full text-center md:w-auto cursor-pointer transition-colors duration-200;
+  }
+  .btn--primary {
+    @apply bg-primary text-white hover:bg-primary-dark;
+  }
+  .btn--outline {
+    @apply border border-primary text-primary hover:bg-primary hover:text-white;
+  }
+  .btn--outline-white {
+    @apply border border-white text-white hover:bg-white hover:text-primary;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm overflow-hidden border border-rose-50;
+  }
+  .card h3 {
+    @apply text-text-primary mb-2 hover:text-primary transition-colors duration-200;
+  }
+  .card p {
+    @apply mb-4 text-text-secondary;
+  }
+  .card a {
+    @apply text-primary font-medium hover:text-primary-dark;
+  }
+
+  .category-badge {
+    @apply absolute top-4 left-4 bg-primary text-white text-xs font-medium px-3 py-1 rounded-full;
+  }
+
+  .nav-link {
+    @apply text-text-secondary hover:text-primary font-medium transition-colors duration-200 cursor-pointer;
+  }
+
+  footer h5 {
+    @apply mb-4 text-white;
+  }
+  .footer-link {
+    @apply space-y-2;
+  }
+  .footer-link li {
+    @apply text-white/60 hover:text-white cursor-pointer transition-colors duration-200;
+  }
+}
+
+@layer utilities {
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-scroll-left {
+    animation: scroll-left 100s linear infinite;
+  }
+  .animate-scroll-right {
+    animation: scroll-right 100s linear infinite;
+  }
+}

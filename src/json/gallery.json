@@ -1,0 +1,128 @@
+{
+  "row1": [
+    {
+      "id": 1,
+      "alt": "Cebu Beach",
+      "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?w=600"
+    },
+    {
+      "id": 2,
+      "alt": "Baguio Pines",
+      "image": "https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?w=600"
+    },
+    {
+      "id": 3,
+      "alt": "Patar Beach",
+      "image": "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?w=600"
+    },
+    {
+      "id": 4,
+      "alt": "Benguet Highlands",
+      "image": "https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?w=600"
+    },
+    {
+      "id": 5,
+      "alt": "Masasa Beach",
+      "image": "https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?w=600"
+    },
+    {
+      "id": 6,
+      "alt": "Sunset View",
+      "image": "https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?w=600"
+    },
+    {
+      "id": 7,
+      "alt": "Mountain Trail",
+      "image": "https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?w=600"
+    },
+    {
+      "id": 8,
+      "alt": "Ocean Waves",
+      "image": "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?w=600"
+    }
+  ],
+  "row2": [
+    {
+      "id": 9,
+      "alt": "Rice Terraces",
+      "image": "https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?w=600"
+    },
+    {
+      "id": 10,
+      "alt": "Tropical Forest",
+      "image": "https://images.pexels.com/photos/975771/pexels-photo-975771.jpeg?w=600"
+    },
+    {
+      "id": 11,
+      "alt": "Island Hopping",
+      "image": "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?w=600"
+    },
+    {
+      "id": 12,
+      "alt": "Waterfall",
+      "image": "https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?w=600"
+    },
+    {
+      "id": 13,
+      "alt": "Cliff View",
+      "image": "https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg?w=600"
+    },
+    {
+      "id": 14,
+      "alt": "Beach Sunset",
+      "image": "https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?w=600"
+    },
+    {
+      "id": 15,
+      "alt": "Misty Mountains",
+      "image": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?w=600"
+    },
+    {
+      "id": 16,
+      "alt": "Coastal Road",
+      "image": "https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?w=600"
+    }
+  ],
+  "row3": [
+    {
+      "id": 17,
+      "alt": "Camping Night",
+      "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?w=600"
+    },
+    {
+      "id": 18,
+      "alt": "Fishing Village",
+      "image": "https://images.pexels.com/photos/1559699/pexels-photo-1559699.jpeg?w=600"
+    },
+    {
+      "id": 19,
+      "alt": "Mountain Lake",
+      "image": "https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?w=600"
+    },
+    {
+      "id": 20,
+      "alt": "Palm Trees",
+      "image": "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?w=600"
+    },
+    {
+      "id": 21,
+      "alt": "Sunrise Hike",
+      "image": "https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg?w=600"
+    },
+    {
+      "id": 22,
+      "alt": "Lagoon",
+      "image": "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?w=600"
+    },
+    {
+      "id": 23,
+      "alt": "Flower Fields",
+      "image": "https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?w=600"
+    },
+    {
+      "id": 24,
+      "alt": "Sunrise Beach",
+      "image": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?w=600"
+    }
+  ]
+}

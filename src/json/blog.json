@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "category": "Love",
+    "title": "The Day I Knew You Were the One",
+    "excerpt": "It wasn't a grand moment. It was quiet, ordinary — and that's exactly why it meant everything.",
+    "date": "March 1, 2025",
+    "readTime": "5 min read",
+    "image": "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?w=800"
+  },
+  {
+    "id": 2,
+    "category": "Life",
+    "title": "What Marriage Taught Me in Year One",
+    "excerpt": "Nobody tells you about the little negotiations, the compromises, and how beautiful they actually are.",
+    "date": "February 14, 2025",
+    "readTime": "6 min read",
+    "image": "https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?w=800"
+  },
+  {
+    "id": 3,
+    "category": "Reflections",
+    "title": "Learning to Be Present Together",
+    "excerpt": "We put our phones down for a whole weekend. Here's what happened when we just looked at each other.",
+    "date": "January 20, 2025",
+    "readTime": "4 min read",
+    "image": "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?w=800"
+  },
+  {
+    "id": 4,
+    "category": "Gratitude",
+    "title": "Small Moments That Make a Big Life",
+    "excerpt": "Morning coffee, evening walks, stolen glances. The small things are actually the whole thing.",
+    "date": "December 25, 2024",
+    "readTime": "3 min read",
+    "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?w=800"
+  }
+]

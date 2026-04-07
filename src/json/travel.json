@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "category": "Beach",
+    "title": "Cebu: Island of Wonders",
+    "excerpt": "From the stunning shores of Mactan to the sardine run of Moalboal, Cebu never runs out of surprises for us.",
+    "date": "March 12, 2025",
+    "author": "Ana & Husband",
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?w=600"
+  },
+  {
+    "id": 2,
+    "category": "Highlands",
+    "title": "Baguio: Our Cool Escape",
+    "excerpt": "Pine trees, strawberry fields, and that crisp mountain air. Baguio is where we slow down and breathe.",
+    "date": "February 3, 2025",
+    "author": "Ana & Husband",
+    "image": "https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?w=600"
+  },
+  {
+    "id": 3,
+    "category": "Beach",
+    "title": "Patar Beach, Pangasinan",
+    "excerpt": "White sand that stretches for miles and turquoise water so clear you can see the bottom. Pure paradise.",
+    "date": "January 18, 2025",
+    "author": "Ana & Husband",
+    "image": "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?w=600"
+  },
+  {
+    "id": 4,
+    "category": "Mountain",
+    "title": "Benguet: Above the Clouds",
+    "excerpt": "Rolling hills, misty mornings, and sunsets that paint the sky in gold. Benguet stole a piece of our hearts.",
+    "date": "December 5, 2024",
+    "author": "Ana & Husband",
+    "image": "https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg?w=600"
+  },
+  {
+    "id": 5,
+    "category": "Beach",
+    "title": "Masasa Beach: Hidden Gem",
+    "excerpt": "A boat ride, a short hike, and then — pure magic. Masasa is the kind of place you want to keep secret.",
+    "date": "November 20, 2024",
+    "author": "Ana & Husband",
+    "image": "https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?w=600"
+  },
+  {
+    "id": 6,
+    "category": "Nature",
+    "title": "Chasing Waterfalls Together",
+    "excerpt": "Nothing beats the sound of rushing water after a long trek. Every waterfall we've found has been worth it.",
+    "date": "October 8, 2024",
+    "author": "Ana & Husband",
+    "image": "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?w=600"
+  }
+]
