@@ -12,11 +12,6 @@ const Hero = () => {
       {/* Content */}
       <div className="container relative z-10">
         <div className="max-w-xl">
-          {/* Icon */}
-          <div className="mb-4">
-            <span className="text-3xl">🤍</span>
-          </div>
-
           {/* Heading */}
           <h1 className="text-white mb-4">
             Our Story, <br />

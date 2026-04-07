@@ -13,8 +13,8 @@ function App() {
       <Hero />
       <About />
       <Blog />
-      <Travel />
       <Gallery />
+      <Travel />
       <Footer />
     </>
   );

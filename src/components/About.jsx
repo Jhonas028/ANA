@@ -1,11 +1,18 @@
 import { Heart, MapPin, Camera, Plane } from "lucide-react";
+import travelData from "../json/travel.json";
+import memoriesData from "../json/gallery.json";
+
+const totalMemories = [
+  ...memoriesData.row1,
+  ...memoriesData.row2,
+  ...memoriesData.row3,
+].length;
 
 const stats = [
-  { icon: Plane, label: "Places Visited", value: "5+" },
-  { icon: Camera, label: "Memories Made", value: "100+" },
+  { icon: Plane, label: "Places Visited", value: `${travelData.length}+` },
+  { icon: Camera, label: "Memories Made", value: `${totalMemories}+` },
   { icon: Heart, label: "Years Together", value: "∞" },
 ];
-
 const About = () => {
   return (
     <section id="About" className="py-20 bg-white">

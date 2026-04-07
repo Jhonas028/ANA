@@ -57,11 +57,11 @@ const Blog = () => {
           {rest.map((post) => (
             <article
               key={post.id}
-              className="bg-white group cursor-pointer overflow-hidden"
+              className="bg-white group cursor-pointer overflow-hidden  rounded-2xl"
               style={{ isolation: "isolate" }}
             >
               {/* Image */}
-              <div className="relative h-80 overflow-hidden rounded-3xl">
+              <div className="relative h-80 overflow-hidden">
                 <img
                   src={post.image}
                   alt={post.title}
